@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/logo.png" alt="DLSU" width="120" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">De La Salle University</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  De La Salle University (DLSU) is a premier Catholic research university in the Philippines, known for its commitment to academic excellence, innovation, and service. Established in 1911, DLSU offers a wide range of undergraduate and graduate programs across various disciplines. It is recognized for its strong emphasis on research, sustainability, and global partnerships, shaping students into future leaders dedicated to social transformation.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-DLSU-new)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -59,13 +59,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project is a university website inspired by the De La Salle University (DLSU) website, developed using GitHub and VS Code. The purpose of this project is to create a structured and visually appealing website that provides essential information about the university, including its academic programs, admissions process, and contact details. Key components include a homepage, an about page, an admissions section, and a contact page, all designed for easy navigation and user accessibility. The website is built using HTML, CSS, and Bootstrap for responsive design, ensuring a seamless user experience across devices. GitHub is used for version control and hosting, while VS Code serves as the primary development environment.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -119,4 +113,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| De La Salle University | The purpose of this website is to provide an informative and user-friendly platform that showcases the university’s academic offerings, admissions process, and key institutional details. It aims to enhance accessibility for prospective students, faculty, and visitors by delivering a structured and visually engaging experience. Additionally, the website serves as a digital representation of the university, promoting its values, programs, and community engagement. | dlsu.edu.ph |
