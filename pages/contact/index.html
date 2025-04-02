@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | De La Salle University</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #006747;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        header img {
+            width: 80px;
+            height: auto;
+        }
+        header h1 {
+            font-family: 'Libre Baskerville', serif;
+            font-weight: 400;
+        }
+        nav {
+            background: #00703C;
+        }
+        nav .navbar-nav .nav-link {
+            color: white !important;
+            padding: 15px;
+        }
+        nav .navbar-nav .nav-link:hover {
+            background: #004d35;
+        }
+        .hero {
+            background: url('green.jpg') no-repeat center center/cover;
+            height: 500px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero div {
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.3rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        .section h2 {
+            color: #006747;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #006747;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="logo.png" alt="DLSU Logo">
+    <h1>De La Salle University</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="academics.html">Academics</a></li>
+                <li class="nav-item"><a class="nav-link" href="admissions.html">Admissions</a></li>
+                <li class="nav-item"><a class="nav-link" href="student-life.html">Student Life</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="hero">
+    <div>
+        <h1>Contact Us</h1>
+        <p>Have any questions or concerns? Get in touch with us today!</p>
+    </div>
+</div>
+
+<div class="container">
+    <section class="section">
+        <h2>Contact Information</h2>
+        <p>If you have any questions, feel free to reach out to us through the following contact details:</p>
+        <ul>
+            <li><strong>Admissions Office</strong>: admissions@dlsu.edu.ph</li>
+            <li><strong>General Inquiries</strong>: info@dlsu.edu.ph</li>
+            <li><strong>Phone</strong>: (+632) 8524-4611</li>
+            <li><strong>Fax</strong>: (+632) 8524-4612</li>
+        </ul>
+    </section>
+
+    <section class="section" style="background: #f1f1f1;">
+        <h2>Visit Us</h2>
+        <p>We welcome you to visit our beautiful campus located at:</p>
+        <address>
+            2401 Taft Avenue, Malate, Manila, Philippines 1004
+        </address>
+        <p>Our campus is open from Monday to Friday, 8 AM to 5 PM.</p>
+    </section>
+
+    <section class="section">
+        <h2>Social Media</h2>
+        <p>Stay connected with us on social media for the latest updates, news, and events:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/dlsu.edu.ph" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/DLSUManila" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/dlsu_manila/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/user/DeLaSalleUniversity" target="_blank">YouTube</a></li>
+        </ul>
+    </section>
+
+    <section class="section" style="background: #f1f1f1;">
+        <h2>Contact Form</h2>
+        <p>For inquiries or comments, fill out the form below, and we will get back to you as soon as possible:</p>
+        <form action="" method="post">
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 De La Salle University. All Rights Reserved.</p>
+    <p>2401 Taft Avenue, Malate, Manila, Philippines 1004 | Phone: (+632) 8524-4611</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
